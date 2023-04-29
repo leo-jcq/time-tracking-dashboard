@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="stylesheet" type="text/css" href="./style/style.css">
+
+    <script src="./script.js" defer></script>
+
+    <title>Frontend Mentor | Time tracking dashboard</title>
+</head>
+
+<body>
+    <main>
+        <div class="user card">
+            <div class="top">
+                <div class="pp">
+                    <img src="./images/image-jeremy.png" alt="Profile picture">
+                </div>
+
+                <div class="text">
+                    <p class="report">Report for</p>
+                    <p class="name">Jeremy Robson</p>
+                </div>
+            </div>
+
+            <div class="bottom">
+                <input type="radio" name="format" id="dailyFormat" value="daily" checked>
+                <label for="dailyFormat">Daily</label>
+                <input type="radio" name="format" id="weeklyFormat" value="weekly">
+                <label for="weeklyFormat">Weekly</label>
+                <input type="radio" name="format" id="monthlyFormat" value="monthly">
+                <label for="monthlyFormat">Monthly</label>
+            </div>
+        </div>
+
+        <div class="work card small">
+            <div class="bottom">
+                <p class="cardName">Work</p>
+                <div class="dot">
+                    <img src="./images/icon-ellipsis.svg" alt="">
+                </div>
+                <p class="currentTime"><span></span>hrs</p>
+                <p class="lastTime">
+                    <span class="unit"></span> - <span class="time"></span>hrs
+                </p>
+            </div>
+        </div>
+
+        <div class="play card small">
+            <div class="bottom">
+                <p class="cardName">Play</p>
+                <div class="dot">
+                    <img src="./images/icon-ellipsis.svg" alt="">
+                </div>
+                <p class="currentTime"><span></span>hrs</p>
+                <p class="lastTime">
+                    <span class="unit"></span> - <span class="time"></span>hrs
+                </p>
+            </div>
+        </div>
+
+        <div class="study card small">
+            <div class="bottom">
+                <p class="cardName">Study</p>
+                <div class="dot">
+                    <img src="./images/icon-ellipsis.svg" alt="">
+                </div>
+                <p class="currentTime"><span></span>hrs</p>
+                <p class="lastTime">
+                    <span class="unit"></span> - <span class="time"></span>hrs
+                </p>
+            </div>
+        </div>
+
+        <div class="exercise card small">
+            <div class="bottom">
+                <p class="cardName">Exercise</p>
+                <div class="dot">
+                    <img src="./images/icon-ellipsis.svg" alt="">
+                </div>
+                <p class="currentTime"><span></span>hrs</p>
+                <p class="lastTime">
+                    <span class="unit"></span> - <span class="time"></span>hrs
+                </p>
+            </div>
+        </div>
+
+        <div class="social card small">
+            <div class="bottom">
+                <p class="cardName">Social</p>
+                <div class="dot">
+                    <img src="./images/icon-ellipsis.svg" alt="">
+                </div>
+                <p class="currentTime"><span></span>hrs</p>
+                <p class="lastTime">
+                    <span class="unit"></span> - <span class="time"></span>hrs
+                </p>
+            </div>
+        </div>
+
+        <div class="selfCare card small">
+            <div class="bottom">
+                <p class="cardName">Self care</p>
+                <div class="dot">
+                    <img src="./images/icon-ellipsis.svg" alt="">
+                </div>
+                <p class="currentTime"><span></span>hrs</p>
+                <p class="lastTime">
+                    <span class="unit"></span> - <span class="time"></span>hrs
+                </p>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
