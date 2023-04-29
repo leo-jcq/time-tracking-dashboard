@@ -22,8 +22,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: []()
-- Live Site URL: []()
+- Solution URL: [https://www.frontendmentor.io/solutions/time-tracking-dashboard-85dU195T7C](https://www.frontendmentor.io/solutions/time-tracking-dashboard-85dU195T7C)
+- Live Site URL: [https://leo-jcq.github.io/time-tracking-dashboard-main/](https://leo-jcq.github.io/time-tracking-dashboard-main/)
 
 ### Built with
 
@@ -35,6 +35,6 @@ Users should be able to:
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Github - [@leo-jcq](https://github.com/leo-jcq)
+- Frontend Mentor - [@leo-jcq](https://www.frontendmentor.io/profile/leo-jcq)
+- Twitter - [@JacquetLo2](https://twitter.com/JacquetLo2)
